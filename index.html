@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Sherif Moussa — Professional Portfolio</title>
+  <meta name="description" content="Sherif Moussa professional portfolio introduction and skill demonstrations.">
+  <style>
+    :root { color-scheme: dark; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Inter, Arial, sans-serif;
+      background: #0f172a;
+      color: #e2e8f0;
+    }
+    .wrap {
+      width: min(1000px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 48px 0 64px;
+    }
+    h1 { margin: 0 0 8px; font-size: clamp(2rem, 5vw, 3.2rem); }
+    .sub { color: #94a3b8; margin: 0 0 32px; line-height: 1.6; }
+    .player {
+      background: #111827;
+      border: 1px solid #334155;
+      border-radius: 16px;
+      padding: 16px;
+      box-shadow: 0 20px 60px rgba(0,0,0,.3);
+    }
+    video { display: block; width: 100%; border-radius: 10px; background: #000; }
+    .note { margin: 14px 2px 0; color: #94a3b8; font-size: .95rem; }
+    h2 { margin-top: 42px; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+      gap: 12px;
+    }
+    a.card {
+      display: block;
+      padding: 16px;
+      border-radius: 12px;
+      border: 1px solid #334155;
+      background: #1e293b;
+      color: #e2e8f0;
+      text-decoration: none;
+    }
+    a.card:hover { border-color: #22d3ee; }
+    .back { display: inline-block; margin-top: 28px; color: #22d3ee; text-decoration: none; }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <h1>Sherif Moussa</h1>
+    <p class="sub">Professional Portfolio — Main Introduction</p>
+
+    <section class="player">
+      <video controls preload="metadata">
+        <source src="./Main_Portfolio_Introduction.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+      </video>
+      <p class="note">2:30 introduction covering my background, capabilities, communication, and the areas demonstrated in this portfolio.</p>
+    </section>
+
+    <h2>Skill Portfolio</h2>
+    <div class="grid">
+      <a class="card" href="./01-DotNet-Web-Development/">.NET Web Development</a>
+      <a class="card" href="./02-Flutter-Dart/">Flutter &amp; Dart</a>
+      <a class="card" href="./03-Customer-Service/">Customer Service</a>
+      <a class="card" href="./04-AI-ComfyUI/">AI / ComfyUI</a>
+      <a class="card" href="./05-SDR-B2B-Sales/">SDR / B2B Sales</a>
+    </div>
+
+    <a class="back" href="https://github.com/Sherif-Moussa-Pub/Sherif-Moussa-Professional-Portfolio">View repository on GitHub →</a>
+  </main>
+</body>
+</html>
